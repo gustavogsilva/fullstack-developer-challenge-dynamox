@@ -32,11 +32,11 @@ All routes are protected, including API routes, except routes for the user to lo
 
 The responsiveness didn't work properly in the production environment and I didn't have time to fix the problem.
 
-### TO DO
+### To do
 
-To make the system to prevent the user from setting up "TcAg" and "TcAs" sensors for machines of the type "Pump".
+Make the system to prevent the user from setting up "TcAg" and "TcAs" sensors for machines of the type "Pump".
 
-To make the table of monitoring points update automatically as soon as a machine is deleted. To do this, is needed to find out how to access the slice of monitoring points in Redux from the slice of machines.
+Make the table of monitoring points update automatically as soon as a machine is deleted. To do this, is needed to find out how to access the slice of monitoring points in Redux from the slice of machines.
 
 Implement validation of the form's Select fields through Formik.
 
